@@ -4,9 +4,11 @@ block vars
     - title = '扇贝-chatroom'
 
 block stylesheets
+    link(href= cssWebpackPath('client-chatroom'), rel= 'stylesheet')
 
 block body
     .container
         p hello world
 
 block javascripts
+    script(src= jsWebpackPath('client-chatroom'))
