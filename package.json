@@ -1,0 +1,56 @@
+{
+  "name": "chatroom",
+  "version": "0.0.1",
+  "description": "This is the project of chatroom frontend",
+  "scripts": {
+    "start": "NODE_ENV=development SB_LOCAL=local node entrypoint.js",
+    "compile": "NODE_ENV=development SB_LOCAL=local webpack --display-error-detail --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.17bdc.com:frontend/chatroom_web.git"
+  },
+  "dependencies": {
+      "assets-webpack-plugin": "^3.4.0",
+      "autoprefixer": "^6.3.3",
+      "babel-cli": "^6.14.0",
+      "babel-core": "^6.11.4",
+      "babel-loader": "^6.2.4",
+      "babel-preset-latest": "^6.16.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-react-hmre": "^1.1.1",
+      "babel-register": "^6.3.13",
+      "clean-webpack-plugin": "^0.1.9",
+      "cookie-parser": "^1.4.3",
+      "css-loader": "^0.23.1",
+      "es6-promise": "^3.1.2",
+      "express": "^4.13.1",
+      "express-webpack-assets": "^0.0.2",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "i18n": "^0.8.2",
+      "file-loader": "^0.9.0",
+      "isomorphic-fetch": "^2.2.1",
+      "less": "^2.6.0",
+      "less-loader": "^2.2.2",
+      "react-hot-loader": "^1.3.0",
+      "postcss-loader": "^0.9.1",
+      "pug": "^2.0.0-beta6",
+      "react": "^15.2.1",
+      "react-dom": "^15.2.1",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.6.0",
+      "react-router-redux": "^4.0.5",
+      "redux": "^3.5.2",
+      "redux-actions": "^0.12.0",
+      "redux-thunk": "^2.1.0",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.13.1",
+      "webpack-bundle-tracker": "^0.0.93"
+  },
+  "devDependencies": {
+      "react-hot-loader": "^1.3.0",
+      "webpack-dev-middleware": "^1.2.0",
+      "webpack-hot-middleware": "^2.9.1"
+  }
+}
